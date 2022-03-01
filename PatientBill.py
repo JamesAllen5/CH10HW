@@ -8,8 +8,13 @@ pro1=pr.Procedure("Physical Exam","2/15/2022","Dr. Irvine",250,1)
 pro2=pr.Procedure("MRI","2/15/2022","Dr. Hamilton",1500,1)
 pro3=pr.Procedure("CT Scan","2/17/2022","Dr. Drey",1200,2)
 
+tc=(250+1500)*.6
+
 print("*** Patient Bill***")
 pat1.print_patient()
-print_procedure()
-pro2=print_procedure()
-pro3=print_procedure()
+print()
+pro1.print_procedure()
+print()
+pro2.print_procedure()
+print()
+print("Total Charges: $",tc)

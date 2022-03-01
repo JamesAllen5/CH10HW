@@ -22,8 +22,7 @@ class Procedure:
         return self.__patient_id
 
     def print_procedure(self):
-        if self.__patient_id==1:
-            print("Procedure: ",self.__procedure_name)
-            print("Date: ",self.__procedure_date)
-            print("Practitioner: ",self.__practitioner_name)
-            print("Charge: ",self.__charge)
+        print("Procedure: ",self.__procedure_name)
+        print("Date: ",self.__procedure_date)
+        print("Practitioner: ",self.__practitioner_name)
+        print("Charge: ",self.__charge)
